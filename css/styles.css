@@ -84,7 +84,8 @@ footer a:hover {
 /* HOME
 ------------------------------------*/
 .home {
-    background: url(../images/home.jpg) no-repeat;
+    background: url(../images/QA.png) no-repeat;
+    /* home.jpg */
     background-size: cover;
     display: flex;
     flex-direction: column;
