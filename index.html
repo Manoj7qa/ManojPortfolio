@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quality Analyst, API and Web Automation</title>
+  <title>Quality Analyst, API, Web & Mobile Automation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
@@ -59,12 +59,10 @@
     const startDate = new Date('2022-06-13');
     // Current date
     const currentDate = new Date();
-
     // Calculate the difference in years and months
     const totalMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12 + (currentDate.getMonth() - startDate.getMonth());
     const years = Math.floor(totalMonths / 12);
     const months = totalMonths % 12;
-
     // Set the calculated experience in the HTML
     document.getElementById('experience').textContent = `${years} years and ${months} months`;
   </script>
